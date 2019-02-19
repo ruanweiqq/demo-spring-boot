@@ -5,27 +5,37 @@
 
 	<parent>
 		<groupId>org.ruanwei.demo</groupId>
-		<artifactId>demo-springboot</artifactId>
-		<version>1.0</version>
+		<artifactId>demo-spring-boot</artifactId>
+		<version>2019.02.19</version>
 	</parent>
 
-	<artifactId>demo-springboot-standalone</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>demo-spring-boot-webmvc</artifactId>
+	<version>2019.02.19</version>
 	<packaging>jar</packaging>
 
-	<name>Demo:Spring Boot as Standalone</name>
+	<name>Demo:Spring Boot with WebMVC</name>
 	<description>Demo Project for Spring Boot</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
@@ -45,7 +55,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>demo-springboot-standalone</finalName>
+		<finalName>demo-spring-boot-webmvc</finalName>
 	</build>
 
 </project>

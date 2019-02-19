@@ -5,12 +5,12 @@
 
 	<parent>
 		<groupId>org.ruanwei.demo</groupId>
-		<artifactId>demo-springboot</artifactId>
-		<version>1.0</version>
+		<artifactId>demo-spring-boot</artifactId>
+		<version>2019.02.19</version>
 	</parent>
 
-	<artifactId>demo-springboot-webflux</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>demo-spring-boot-webflux</artifactId>
+	<version>2019.02.19</version>
 	<packaging>jar</packaging>
 
 	<name>Demo:Spring Boot with WebFlux</name>
@@ -61,7 +61,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>demo-springboot-webflux</finalName>
+		<finalName>demo-spring-boot-webflux</finalName>
 	</build>
 
 </project>

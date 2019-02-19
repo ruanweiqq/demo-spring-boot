@@ -10,8 +10,8 @@
 	</parent>
 
 	<groupId>org.ruanwei.demo</groupId>
-	<artifactId>demo-springboot</artifactId>
-	<version>1.0</version>
+	<artifactId>demo-spring-boot</artifactId>
+	<version>2019.02.19</version>
 	<packaging>pom</packaging>
 
 	<name>Demo:Spring Boot</name>
@@ -42,13 +42,13 @@
 	</properties>
 
 	<modules>
-		<module>demo-springboot-webmvc</module>
-        <module>demo-springboot-webflux</module>
-		<module>demo-springboot-standalone</module>
+		<module>demo-spring-boot-webmvc</module>
+        <module>demo-spring-boot-webflux</module>
+		<module>demo-spring-boot-standalone</module>
 	</modules>
 
 	<build>
-		<finalName>demo-springboot</finalName>
+		<finalName>demo-spring-boot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
